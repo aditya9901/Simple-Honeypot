@@ -57,7 +57,7 @@ contract Attack {
     }
 }
 
-// Let's say this code is in a separate file so that others cannot read it.
+//Hypothetical unseen code
 contract HoneyPot {
     function log(address _caller, uint _amount, string memory _action) public {
         if (equal(_action, "Withdraw")) {
